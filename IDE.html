@@ -1,0 +1,33 @@
+<html>
+<head><title>IDE PROJECT</title>
+	<meta charset="UTF-8">
+	<meta http-equiv='cache-control' content='no-cache'> 
+<meta http-equiv='expires' content='0'> 
+<meta http-equiv='pragma' content='no-cache'> 
+<link rel="stylesheet" href="style.css">
+
+<script type="text/javascript" defer src="IDE.js"></script>
+<script src="../Libraries/node_modules/requirejs/require.js"></script>
+<script src="../Libraries/node_modules/snowball/stemmer/lib/Snowball.min.js"></script></head>
+<body><center>
+	<header class="head1" ><a href="http://cl-iiith.vlabs.ac.in/index.html">COMPUTATIONAL LINGUISTICS</a> </header>
+	<div>
+	<br>
+    <h3 style="text-align: left; color:#002266; font-size: 40px;"> &nbsp;&nbsp;&nbsp;<b>Experiment</b></h3>
+    <center><select id="corpus" name="corpus" style="width:30%;height:2%;font-size: 70%"onchange="select_corpus();">
+   <option value="null" onclick="reload();" >--Select Corpus--</option>
+  <option value="Corpus-1">Corpus-1</option>
+  <option value="Corpus-2" >Corpus-2</option>
+  <option value="Corpus-3" >Corpus-3</option>
+</select>
+<p id="demo1"></p>
+ <p id="demo2"></p>
+ <p id="demo6"></p>
+ <h3 id="demo3"></h3>
+ <p id="demo4"></p>
+<h3 id="demo5"></h3>
+ </center>
+</div>
+</center>
+</body>
+</html>
